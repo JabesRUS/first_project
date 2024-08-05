@@ -1,4 +1,4 @@
-package workhome1;
+package homework.homework1;
 
 public class Homework1 {
     public static void main(String[] args) {
@@ -65,8 +65,7 @@ public class Homework1 {
         //получить индекс (число) второй буквы 'o' в строке. ПОЛУЧЕНИЕ ИНДЕКСА ЧЕРЕЗ ФУНКЦИЮ!
         //Распечатать полученный индекс
         String simply = "this is simply. This is my favorite song.";
-        System.out.println(simply.replace("this is","those are")
-                .indexOf('o',simply.indexOf('o') + 1));
+        System.out.println(simply.replace("this is","those are").indexOf('o',simply.indexOf('o') + 1));
     }
 
     /**
