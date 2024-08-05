@@ -1,8 +1,8 @@
 package homework.homework2.office;
 
 public class Secretary {
-    public void request(Boss boss, Manager manager, Guard guard){
+    public void request(String bossName, String managerName, String guardName){
         System.out.printf("%s не волнуйтесь, %s все успеет. %s - подождите!"
-                , boss.getName(), manager.getName(), guard.getName());
+                , bossName, managerName, guardName);
     }
 }

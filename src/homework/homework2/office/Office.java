@@ -17,6 +17,6 @@ public class Office {
         boss.accelerateManager(manager);
         manager.scream();
         guard.giveMeMoney();
-        secretary.request(boss, manager, guard);
+        secretary.request(boss.getName(), manager.getName(), guard.getName());
     }
 }
