@@ -3,8 +3,8 @@ package homework.homework2.office;
 public class Boss {
     private String name;
 
-    public Boss(String bossName) {
-        this.name = bossName;
+    public Boss(String name) {
+        this.name = name;
     }
 
     public String getName() {
