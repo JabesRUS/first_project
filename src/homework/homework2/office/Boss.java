@@ -1,18 +1,18 @@
 package homework.homework2.office;
 
 public class Boss {
-    private String bossName;
+    private String name;
 
     public Boss(String bossName) {
-        this.bossName = bossName;
+        this.name = bossName;
     }
 
-    public String getBossName() {
-        return bossName;
+    public String getName() {
+        return name;
     }
 
 
     public void accelerateManager(Manager manager){
-        System.out.printf("%s быстрее!!!\n", manager.getManagerName());
+        System.out.printf("%s быстрее!!!\n", manager.getName());
     }
 }

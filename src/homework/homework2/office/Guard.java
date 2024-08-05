@@ -1,14 +1,14 @@
 package homework.homework2.office;
 
 public class Guard {
-    private String nameGuard;
+    private String name;
 
     public Guard(String nameGuard) {
-        this.nameGuard = nameGuard;
+        this.name = nameGuard;
     }
 
-    public String getNameGuard() {
-        return nameGuard;
+    public String getName() {
+        return name;
     }
 
     public void giveMeMoney(){

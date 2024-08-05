@@ -1,14 +1,14 @@
 package homework.homework2.office;
 
 public class Manager {
-    private String managerName;
+    private String name;
 
     public Manager(String managerName) {
-        this.managerName = managerName;
+        this.name = managerName;
     }
 
-    public String getManagerName() {
-        return managerName;
+    public String getName() {
+        return name;
     }
 
     public void scream(){
