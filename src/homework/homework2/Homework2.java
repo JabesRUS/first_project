@@ -52,7 +52,7 @@ public class Homework2 {
                     leftUpToRightDownSum += arrayOfNumbers[i][j];
                 }
 
-                if (i + j == arrayOfNumbers[i].length - 1){
+                if (i + j == arrayOfNumbers[i].length - 1) {
                     leftDownToRightUpSum += arrayOfNumbers[i][j];
                 }
             }
