@@ -12,7 +12,7 @@ public class Boss {
     }
 
 
-    public void accelerateManager(Manager manager){
-        System.out.printf("%s быстрее!!!\n", manager.getName());
+    public void accelerateManager(String nameManager){
+        System.out.printf("%s быстрее!!!\n", nameManager);
     }
 }

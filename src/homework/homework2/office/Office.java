@@ -14,7 +14,7 @@ public class Office {
     }
 
     public void workDay(){
-        boss.accelerateManager(manager);
+        boss.accelerateManager(manager.getName());
         manager.scream();
         guard.giveMeMoney();
         secretary.request(boss.getName(), manager.getName(), guard.getName());
